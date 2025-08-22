@@ -20,8 +20,23 @@ namespace Project
             // Season.season();
             // Count.count();
             // ForLoop.forloop();
-            Array.array();
+            // Array.array();
+            print(2);
+            Console.WriteLine(sum(2, 23));
 
+        }
+        static void print(int t)
+        {
+            for (int i = 0; i < t; i++)
+            {
+                Console.WriteLine("welcome");
+            }
+        }
+
+        static int sum(int i, int x)
+        {
+           int c = i + x;
+            return c;
         }
     }
 
@@ -32,6 +47,7 @@ namespace Project
             var ra = "Hello, raghod!!!!";
             Console.WriteLine(ra);
         }
+
     }
 
     class Program3
@@ -159,7 +175,14 @@ namespace Project
             colors[1] = "black";
             colors[2] = "red";
             Console.WriteLine(colors[0]);
+
+            var colorsArray = new string[] { "white", "black", "red" };
+            foreach (var color in colorsArray)
+            {
+                Console.WriteLine(color);
+            }
         }
+        
     }
 }
 // This code defines a simple C# console application classes.
