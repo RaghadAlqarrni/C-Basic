@@ -8,8 +8,8 @@ namespace Project
     {
         static void Main(string[] args)
         {
-            var name = "Hello, raghod!";
-            // calling the methods
+            var name = "Hello, there!!";
+            // calling the class
 
             // Console.WriteLine(name);
             // Program2.SecondMethod();
@@ -21,8 +21,9 @@ namespace Project
             // Count.count();
             // ForLoop.forloop();
             // Array.array();
-            print(2);
-            Console.WriteLine(sum(2, 23));
+            // print(2);
+            // Console.WriteLine(sum(2, 23));
+            Project.project();
 
         }
         static void print(int t)
@@ -35,7 +36,7 @@ namespace Project
 
         static int sum(int i, int x)
         {
-           int c = i + x;
+            int c = i + x;
             return c;
         }
     }
@@ -44,8 +45,8 @@ namespace Project
     {
         public static void SecondMethod()
         {
-            var ra = "Hello, raghod!!!!";
-            Console.WriteLine(ra);
+            var i = "Hello, there!!!!";
+            Console.WriteLine(i);
         }
 
     }
@@ -166,7 +167,7 @@ namespace Project
     }
 
 
-        class Array
+    class Array
     {
         public static void array()
         {
@@ -182,8 +183,7 @@ namespace Project
                 Console.WriteLine(color);
             }
         }
-        
+
     }
+    
 }
-// This code defines a simple C# console application classes.
-// The `Program` class contains the `Main` method which prints a greeting message and calls
